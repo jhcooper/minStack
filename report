@@ -1,0 +1,7 @@
+
+
+the program either pushes numbers into the stack, pops them, or finds the minimum from the values.
+ The program's runtime is O(1).
+ the push function is modified to keep track of the min; however, the modifications are if statements so the run time stays the same.
+ the pop function is modified to change the running min if the min is popped; however, this was also with if statements so the runtime stays the same.
+ the findmin function only returns the min value which is constant; therefore, the runtime stays O(1).
